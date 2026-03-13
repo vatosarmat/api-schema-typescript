@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["es6", "dom"],
+    "target": "es2022",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
@@ -15,7 +14,7 @@
     "noEmitOnError": true,
     "outDir": "./dist",
     "declaration": true,
-    "module": "es6"
+    "module": "commonjs"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
